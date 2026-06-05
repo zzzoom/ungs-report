@@ -1,0 +1,32 @@
+AMD Zen HPL 2024_10_08, Linpack benchmark input file
+Advanced Micro Devices, Inc.
+HPL.out         output file name (if any)
+6               device out(6=stdout,7=stderr,file)
+1               # of problem sizes(N)
+1041408         Ns
+1               # of NBs
+384             NBs
+0               PMAP process mapping (0=Row-,1=Column-major)
+1               # of process grids (P x Q)
+8               Ps
+12              Qs
+16              threshold (<0 to disable testing)
+1               # of panel fact
+1               PFACTs (0=left, 1=Crout, 2=Right)
+1               # of recursive stopping criterium
+48              NBMINS (>=1)
+1               # of panels in recursion
+8               NDIVs
+1               # of recursive panel fact.
+2               RFACTs (0=left, 1=Crout, 2=Right)
+1               # of broadcasts
+7               BCASTs (0=1rg,1=1rM,2=2rg,3=2rM,4=Lng,5=LnM,6=Ibcst,7=Hybrid)
+1               # lookahead depth
+1               DEPTHS (>=0)
+211             SWAPs (0=bin-exch,1=long,2=mix)
+384             swapping threshold
+0               L1 in (0=RowMajor,1=ColumnMajor) form
+0               A in (0=ColMajor,1=RowMajor) form
+0               Equilibration(0=no,1=yes)
+8               Data alignment in # of doubles (>0)
+1               MXSWP algo (0=orig,1=collective)
